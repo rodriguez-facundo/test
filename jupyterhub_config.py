@@ -15,7 +15,7 @@
 # c.JupyterHub.authenticator_class = 'dummyauthenticator.DummyAuthenticator'
 # c.DummyAuthenticator.password = "dummypassword"
 c.JupyterHub.authenticator_class = 'tmpauthenticator.TmpAuthenticator'
-
+c.JupyterHub.bind_url = 'http://localhost:8000'
 ## The class to use for spawning single-user servers.
 #  
 #  Should be a subclass of Spawner.
